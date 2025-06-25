@@ -5,6 +5,7 @@ import { ElementsRoutingModule } from './elements-routing.module';
 import { ElementsHomeComponent } from './elements-home/elements-home.component';
 import { PlaceholderComponent } from './placeholder/placeholder.component';
 import { RepeatDirective } from './repeat.directive';
+import { SharedModule } from '../shared/shared.module';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { RepeatDirective } from './repeat.directive';
   ],
   imports: [
     CommonModule,
-    ElementsRoutingModule
+    ElementsRoutingModule,
+    SharedModule
   ],
   exports: [
   ],
