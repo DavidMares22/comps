@@ -6,13 +6,15 @@ import { ElementsHomeComponent } from './elements-home/elements-home.component';
 import { PlaceholderComponent } from './placeholder/placeholder.component';
 import { RepeatDirective } from './repeat.directive';
 import { SharedModule } from '../shared/shared.module';
+import { SegmentComponent } from './segment/segment.component';
 
 
 @NgModule({
   declarations: [
     ElementsHomeComponent,
     PlaceholderComponent,
-    RepeatDirective
+    RepeatDirective,
+    SegmentComponent
   ],
   imports: [
     CommonModule,
